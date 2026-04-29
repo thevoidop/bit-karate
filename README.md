@@ -2,7 +2,7 @@
 
 **Chop away the noise. Reduce image size without losing the essence.**
 
-A modern [Streamlit](https://streamlit.io) web application that demonstrates _bit‑plane slicing_ – a technique to reduce the colour depth of an image by discarding the least significant bits.  
+A modern [Streamlit](https://streamlit.io) web application that demonstrates _bit‑plane slicing_, a technique to reduce the colour depth of an image by discarding the least significant bits.  
 The result is a visibly coarser image that occupies **less disk space** when stored in a lossless format (PNG).
 This updated version features a highly interactive UI with real-time quality metrics and pixel density distributions.
 
@@ -10,21 +10,6 @@ This updated version features a highly interactive UI with real-time quality met
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.29+-red)](https://streamlit.io/)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive-purple)](https://plotly.com/python/)
-
----
-
-## 📖 Table of Contents
-
-- [Overview](#-overview)
-- [How It Works](#-how-it-works)
-- [Why Bit‑Plane Reduction Matters](#-why-bit-plane-reduction-matters)
-- [Features](#-features)
-- [Installation & Running Locally](#-installation--running-locally)
-- [Usage Guide](#-usage-guide)
-- [Technical Deep‑Dive: Lossless vs Lossy](#-technical-deepdive-lossless-vs-lossy)
-- [Project Structure](#-project-structure)
-- [Customisation](#-customisation)
-- [License](#-license)
 
 ---
 
@@ -82,7 +67,7 @@ Because the image contains fewer distinct values, a **PNG (lossless) compression
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/thevoidop/bit-karate.git](https://github.com/thevoidop/bit-karate.git)
+git clone https://github.com/thevoidop/bit-karate.git
 cd bit-karate
 ```
 
